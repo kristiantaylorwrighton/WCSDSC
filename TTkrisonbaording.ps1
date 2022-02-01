@@ -93,8 +93,8 @@ $Params = @{
      RegistrationKey = 'tUJGu1msgVvzqfzL8OO55rmkZF7otc9VmXXBvZYSU5hDiyK6PLZWeKJlmSgyJk+RTofgCy6TR/V6ipx90PYFhQ==';
      ComputerName = @('localhost');
      NodeConfigurationName = 'TTCommon1.localhost';
-     RefreshFrequencyMins = 1441;
-     ConfigurationModeFrequencyMins = 721;
+     RefreshFrequencyMins = 1444;
+     ConfigurationModeFrequencyMins = 724;
      RebootNodeIfNeeded = $False;
      AllowModuleOverwrite = $False;
      ConfigurationMode = 'ApplyAndMonitor';
