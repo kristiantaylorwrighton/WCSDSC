@@ -92,7 +92,7 @@ $Params = @{
      RegistrationUrl = 'https://cacec527-ab84-4d88-8bc9-d00289f066b0.agentsvc.ase.azure-automation.net/accounts/cacec527-ab84-4d88-8bc9-d00289f066b0';
      RegistrationKey = 'bc2iAyRPkRQG5K3oz8F1y7K9ZdlyD+q8VTbH1rOQiTEX0YUwe8AYE0NdOUwoA0gxa1eK9ITVlW6KMr4iDvuvfw==';
      ComputerName = @("localhost");
-     NodeConfigurationName = 'wcscommon.localhost'
+     NodeConfigurationName = 'wcsdefault.localhost'
      RefreshFrequencyMins = 1440;
      ConfigurationModeFrequencyMins = 720;
      RebootNodeIfNeeded = $True;
