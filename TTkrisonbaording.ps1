@@ -104,5 +104,5 @@ $Params = @{
 
 # Use PowerShell splatting to pass parameters to the DSC configuration being invoked
 # For more info about splatting, run: Get-Help -Name about_Splatting
-DscMetaConfigs @Params -OutputPath C:\utility\DscMetaConfigs 
-Set-DscLocalConfigurationManager -Path C:\utility\DscMetaConfigs 
+DscMetaConfigs @Params -OutputPath C:\utility\Dsc
+Set-DscLocalConfigurationManager -Path C:\utility\Dsc
