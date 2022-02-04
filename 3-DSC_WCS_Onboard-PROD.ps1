@@ -106,7 +106,7 @@ $Params = @{
 # For more info about splatting, run: Get-Help -Name about_Splatting
 
 
-DscMetaConfigs @Params -OutputPath C:\workarea\DscMetaConfigs 
+DscMetaConfigs @Params -OutputPath C:\utility\dsc
 
 
-Set-DscLocalConfigurationManager -Path C:\workarea\DscMetaConfigs -Force # -Credential $Creds
+Set-DscLocalConfigurationManager -Path C:\utility\dsc -Force # -Credential $Creds
